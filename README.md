@@ -67,7 +67,7 @@ https://random-number-generator-delta-plum.vercel.app/
 
 ## 👨‍💻 Author
 
-Dharani
+Dharani K
 
 ## ⭐ Support
 
