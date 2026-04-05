@@ -5,13 +5,13 @@ function RandomNumber() {
   const [max, setMax] = useState(10);
   const [guess, setGuess] = useState("");
   const [randomNumber, setRandomNumber] = useState(null);
-  const [message, setMessage] = useState("No Random Number is Generated");
+  const [message, setMessage] = useState("No Random Number is Generated !");
   const [attempts, setAttempts] = useState(0);
   const [loading, setLoading] = useState(false);
 
   function rollDice(callback) {
     setLoading(true);
-    setMessage("");
+    setMessage("No Random Number is Generated !");
     setRandomNumber(null);
     setAttempts(prev => prev + 1);
 
@@ -54,7 +54,7 @@ function RandomNumber() {
     setMax(10);
     setGuess("");
     setRandomNumber(null);
-    setMessage("No Random Number is Generated");
+    setMessage("No Random Number is Generated !");
     setAttempts(0);
     setLoading(false);
   }
