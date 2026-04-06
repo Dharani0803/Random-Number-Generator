@@ -11,7 +11,7 @@ function RandomNumber() {
 
   function rollDice(callback) {
     setLoading(true);
-    setMessage("No Random Number is Generated !");
+    setMessage(null);
     setRandomNumber(null);
     setAttempts(prev => prev + 1);
 
@@ -21,6 +21,7 @@ function RandomNumber() {
 
       setRandomNumber(random);
       setLoading(false);
+      setMessage(<span>The generated Random Number is {random}</span>);
 
       if (callback) callback(random);
     }, 2000);
