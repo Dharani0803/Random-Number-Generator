@@ -2,12 +2,6 @@
 
 A simple and interactive React application that generates random numbers using a rolling dice animation and allows users to guess the generated number.
 
----
-
-## 🚀 Live Demo
-https://your-vercel-link.vercel.app
-
----
 
 ## 🚀 Features
 
@@ -20,7 +14,6 @@ https://your-vercel-link.vercel.app
 * 🌄 Background image support
 * 📱 Responsive design
 
----
 
 ## 🛠️ Built With
 
@@ -30,7 +23,6 @@ https://your-vercel-link.vercel.app
 * Font Awesome
 * Vite
 
----
 
 ## 📂 Project Structure
 
